@@ -1,0 +1,73 @@
+#05
+;FF     PUBLIC
+02FCFBA_?DATA
+02FCFDE_?DATAL
+02FCFDE_?DATS
+02FCFDE_?INIS
+02FCFDE_?INIT
+02FCFDE_?INITL
+0100002_?RLINIT
+0100002_?R_INIS
+0100028_?R_INIT
+02FCF98_@BRKADR
+02FCF86_@DIVR
+02FCF80_@FNCENT
+02FCF00_@FNCTBL
+02FCF8A_@LDIVR
+0000000_@MAA
+02FCFBA_@MEMBTM
+02FCF9A_@MEMTOP
+01FFE20_@SADBEG
+00000C0_@SADSIZ
+02FCF82_@SEED
+00FFEE0_@STBEG
+00FCFDE_@STEND
+02FCF92_@TOKPTR
+0100185_@cend
+01000D8_@cstart
+010002C_@vect2c
+010022E_R_CGC_Create
+0100245_R_CGC_Get_ResetSource
+0100208_R_MAIN_UserInit
+0100251_R_PORT_Create
+010020C_R_Systeminit
+01002D2_R_TAU0_Channel0_Start
+01002E3_R_TAU0_Channel0_Stop
+0100265_R_TAU0_Create
+0100313_dled_get_hexnum
+0100341_dled_show_hexnum
+02FCFD8_dledbuf
+02FCFC4_dledcode
+02FCFD4_dledpos
+02FCF96_errno
+01003C0_exit
+02FCFBF_flag_1s
+02FCFBE_flag_5ms
+0100226_hdwinit
+0100378_key_init
+01001AA_main
+02FCFBC_num
+02FCFBA_num_dir
+01002FF_set_dcode
+01002F4_set_wcode
+010037C_stkinit
+;FF     @cstart
+;FF     r_main
+;FF     r_systeminit
+;FF     r_cg_cgc
+;FF     r_cg_cgc_user
+;FF     r_cg_port
+;FF     r_cg_port_user
+;FF     r_cg_timer
+;FF     r_cg_timer_user
+<02FCFC2_cnt_1s
+02FCFC0_cnt_5ms
+0100185_r_tau0_channel0_interrupt
+;FF     dled
+<02FCFDC_i
+;FF     key
+;FF     @stkinit
+;FF     exit
+;FF     @rom
+=
+

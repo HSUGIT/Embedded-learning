@@ -1,0 +1,57 @@
+#05
+;FF     PUBLIC
+02FCFBA_?DATA
+02FCFBA_?DATAL
+02FCFBA_?DATS
+02FCFBA_?INIS
+02FCFBA_?INIT
+02FCFBA_?INITL
+0100002_?RLINIT
+0100002_?R_INIS
+0100002_?R_INIT
+02FCF98_@BRKADR
+02FCF86_@DIVR
+02FCF80_@FNCENT
+02FCF00_@FNCTBL
+02FCF8A_@LDIVR
+0000000_@MAA
+02FCFBA_@MEMBTM
+02FCF9A_@MEMTOP
+01FFE20_@SADBEG
+00000C0_@SADSIZ
+02FCF82_@SEED
+00FFEE0_@STBEG
+00FCFBA_@STEND
+02FCF92_@TOKPTR
+0100185_@cend
+01000D8_@cstart
+010002E_@vect2e
+01001FB_R_CGC_Create
+0100212_R_CGC_Get_ResetSource
+01001D5_R_MAIN_UserInit
+010021E_R_PORT_Create
+01001D9_R_Systeminit
+01002A8_R_TAU0_Channel1_Start
+01002B9_R_TAU0_Channel1_Stop
+0100225_R_TAU0_Create
+010019C_delay
+02FCF96_errno
+010030E_exit
+01001F3_hdwinit
+01001CA_main
+01002CA_stkinit
+;FF     @cstart
+;FF     r_main
+;FF     r_systeminit
+;FF     r_cg_cgc
+;FF     r_cg_cgc_user
+;FF     r_cg_port
+;FF     r_cg_port_user
+;FF     r_cg_timer
+;FF     r_cg_timer_user
+<0100185_r_tau0_channel1_interrupt
+;FF     @stkinit
+;FF     exit
+;FF     @rom
+=
+

@@ -1,0 +1,402 @@
+
+
+
+78K0R Linker W1.70                            Date: 6 Apr 2023 Page:   1
+
+Command:   -yC:\ProfessionalProgramFiles\csplus\CubeSuite+\Device\RL78\D
+           evicefile -_msgoff -oDefaultBuild\SPI_W25Q64.lmf -gi000000000
+           00000000000h -go84h,1FE00h,512 -gb0EFFFE8H -mi0 -s -pDefaultB
+           uild\SPI_W25Q64.map C:\ProfessionalProgramFiles\csplus\CubeSu
+           ite+\CA78K0R\V1.60\lib78k0r\s0rll.rel DefaultBuild\r_main.rel
+            DefaultBuild\r_systeminit.rel DefaultBuild\r_cg_cgc.rel Defa
+           ultBuild\r_cg_cgc_user.rel DefaultBuild\r_cg_serial.rel Defau
+           ltBuild\r_cg_serial_user.rel DefaultBuild\r_cg_port.rel Defau
+           ltBuild\r_cg_port_user.rel DefaultBuild\oled.rel DefaultBuild
+           \MySPI.rel DefaultBuild\W25Q64.rel -bcl0ram.lib -bcl0rm.lib -
+           bcl0rmf.lib -iC:\ProfessionalProgramFiles\csplus\CubeSuite+\C
+           A78K0R\V1.60\lib78k0r
+Para-file:
+Out-file:  DefaultBuild\SPI_W25Q64.lmf
+Map-file:  DefaultBuild\SPI_W25Q64.map
+Direc-file:
+Directive:
+
+
+*** Link information ***
+
+    37 output segment(s)
+ 12C0H byte(s) real data
+   851 symbol(s) defined
+
+
+*** Memory map ***
+
+
+  SPACE=REGULAR
+
+  MEMORY=ROM
+  BASE ADDRESS=00000H   SIZE=10000H
+         OUTPUT   INPUT    INPUT      BASE      SIZE
+         SEGMENT  SEGMENT  MODULE     ADDRESS
+         @@VECT00                     00000H    00002H  CSEG AT
+                  @@VECT00 @cstart    00000H    00002H
+         @@CNSTL                      00002H    00000H  CSEG PAGE64KP
+                  @@CNSTL  @cstart    00002H    00000H
+         @@CNSTL                      00002H    00000H  CSEG PAGE64KP
+                  @@CNSTL  r_main     00002H    00000H
+         @@CNSTL                      00002H    00000H  CSEG PAGE64KP
+                  @@CNSTL  r_systeminit
+                                      00002H    00000H
+         @@CNSTL                      00002H    00000H  CSEG PAGE64KP
+                  @@CNSTL  r_cg_cgc   00002H    00000H
+         @@CNSTL                      00002H    00000H  CSEG PAGE64KP
+                  @@CNSTL  r_cg_cgc_user
+                                      00002H    00000H
+         @@CNSTL                      00002H    00000H  CSEG PAGE64KP
+                  @@CNSTL  r_cg_serial
+                                      00002H    00000H
+         @@CNSTL                      00002H    00000H  CSEG PAGE64KP
+                  @@CNSTL  r_cg_serial_user
+                                      00002H    00000H
+         @@CNSTL                      00002H    00000H  CSEG PAGE64KP
+                  @@CNSTL  r_cg_port
+                                      00002H    00000H
+         @@CNSTL                      00002H    00000H  CSEG PAGE64KP
+                  @@CNSTL  r_cg_port_user
+                                      00002H    00000H
+         @@CNSTL                      00002H    00000H  CSEG PAGE64KP
+                  @@CNSTL  oled       00002H    00000H
+         @@CNSTL                      00002H    00000H  CSEG PAGE64KP
+                  @@CNSTL  MySPI      00002H    00000H
+         @@CNSTL                      00002H    00000H  CSEG PAGE64KP
+                  @@CNSTL  W25Q64     00002H    00000H
+         @@R_INIT                     00002H    00000H  CSEG UNIT64KP
+                  @@R_INIT @cstart    00002H    00000H
+                  @@R_INIT r_main     00002H    00000H
+                  @@R_INIT r_systeminit
+                                      00002H    00000H
+                  @@R_INIT r_cg_cgc   00002H    00000H
+                  @@R_INIT r_cg_cgc_user
+                                      00002H    00000H
+                  @@R_INIT r_cg_serial
+                                      00002H    00000H
+                  @@R_INIT r_cg_serial_user
+                                      00002H    00000H
+                  @@R_INIT r_cg_port
+                                      00002H    00000H
+                  @@R_INIT r_cg_port_user
+                                      00002H    00000H
+                  @@R_INIT oled       00002H    00000H
+                  @@R_INIT MySPI      00002H    00000H
+                  @@R_INIT W25Q64     00002H    00000H
+                  @@R_INIT @rom       00002H    00000H
+         @@RLINIT                     00002H    00000H  CSEG UNIT64KP
+                  @@RLINIT @cstart    00002H    00000H
+                  @@RLINIT r_main     00002H    00000H
+                  @@RLINIT r_systeminit
+                                      00002H    00000H
+                  @@RLINIT r_cg_cgc   00002H    00000H
+                  @@RLINIT r_cg_cgc_user
+                                      00002H    00000H
+                  @@RLINIT r_cg_serial
+                                      00002H    00000H
+                  @@RLINIT r_cg_serial_user
+                                      00002H    00000H
+                  @@RLINIT r_cg_port
+                                      00002H    00000H
+                  @@RLINIT r_cg_port_user
+                                      00002H    00000H
+                  @@RLINIT oled       00002H    00000H
+                  @@RLINIT MySPI      00002H    00000H
+                  @@RLINIT W25Q64     00002H    00000H
+                  @@RLINIT @rom       00002H    00000H
+         @@R_INIS                     00002H    00000H  CSEG UNIT64KP
+                  @@R_INIS @cstart    00002H    00000H
+                  @@R_INIS r_main     00002H    00000H
+                  @@R_INIS r_systeminit
+                                      00002H    00000H
+                  @@R_INIS r_cg_cgc   00002H    00000H
+                  @@R_INIS r_cg_cgc_user
+                                      00002H    00000H
+                  @@R_INIS r_cg_serial
+                                      00002H    00000H
+                  @@R_INIS r_cg_serial_user
+                                      00002H    00000H
+                  @@R_INIS r_cg_port
+                                      00002H    00000H
+                  @@R_INIS r_cg_port_user
+                                      00002H    00000H
+                  @@R_INIS oled       00002H    00000H
+                  @@R_INIS MySPI      00002H    00000H
+                  @@R_INIS W25Q64     00002H    00000H
+                  @@R_INIS @rom       00002H    00000H
+         @@CALT                       00002H    00000H  CSEG
+                  @@CALT   @cstart    00002H    00000H
+                  @@CALT   r_main     00002H    00000H
+                  @@CALT   r_systeminit
+                                      00002H    00000H
+                  @@CALT   r_cg_cgc   00002H    00000H
+                  @@CALT   r_cg_cgc_user
+                                      00002H    00000H
+                  @@CALT   r_cg_serial
+                                      00002H    00000H
+                  @@CALT   r_cg_serial_user
+                                      00002H    00000H
+                  @@CALT   r_cg_port
+                                      00002H    00000H
+                  @@CALT   r_cg_port_user
+                                      00002H    00000H
+                  @@CALT   oled       00002H    00000H
+                  @@CALT   MySPI      00002H    00000H
+                  @@CALT   W25Q64     00002H    00000H
+         ??NMIROM                     00002H    00002H  CSEG
+* gap *                               00004H    0001CH
+         @@VECT20                     00020H    00002H  CSEG AT
+                  @@VECT20 r_cg_serial_user
+                                      00020H    00002H
+* gap *                               00022H    0009EH
+         ?CSEGOB0                     000C0H    00004H  CSEG OPT_BYTE
+         @@CODE                       000C4H    00000H  CSEG BASE
+                  @@CODE   r_main     000C4H    00000H
+                  @@CODE   r_systeminit
+                                      000C4H    00000H
+                  @@CODE   r_cg_cgc   000C4H    00000H
+                  @@CODE   r_cg_cgc_user
+                                      000C4H    00000H
+                  @@CODE   r_cg_serial
+                                      000C4H    00000H
+                  @@CODE   r_cg_serial_user
+                                      000C4H    00000H
+                  @@CODE   r_cg_port
+                                      000C4H    00000H
+                  @@CODE   r_cg_port_user
+                                      000C4H    00000H
+                  @@CODE   oled       000C4H    00000H
+                  @@CODE   MySPI      000C4H    00000H
+                  @@CODE   W25Q64     000C4H    00000H
+         ?CSEGSI                      000C4H    0000AH  CSEG
+         ?OCDSTAD                     000CEH    0000AH  CSEG
+         @@LCODE                      000D8H    00190H  CSEG BASE
+                  @@LCODE  @cstart    000D8H    000ADH
+                  @@LCODE  @lmul      00185H    0002BH
+                  @@LCODE  @ludiv     001B0H    0003FH
+                  @@LCODE  @lurem     001EFH    0003CH
+                  @@LCODE  @lrev      0022BH    0000FH
+                  @@LCODE  @ladd      0023AH    0000FH
+                  @@LCODE  @lursh     00249H    0001FH
+         @@BASE                       00268H    000F7H  CSEG BASE
+                  @@BASE   r_main     00268H    00000H
+                  @@BASE   r_systeminit
+                                      00268H    00000H
+                  @@BASE   r_cg_cgc   00268H    00000H
+                  @@BASE   r_cg_cgc_user
+                                      00268H    00000H
+                  @@BASE   r_cg_serial
+                                      00268H    00000H
+                  @@BASE   r_cg_serial_user
+                                      00268H    000F7H
+                  @@BASE   r_cg_port
+                                      0035FH    00000H
+                  @@BASE   r_cg_port_user
+                                      0035FH    00000H
+                  @@BASE   oled       0035FH    00000H
+                  @@BASE   MySPI      0035FH    00000H
+                  @@BASE   W25Q64     0035FH    00000H
+         @@CODEL                      0035FH    009B9H  CSEG
+                  @@CODEL  r_main     0035FH    00072H
+                  @@CODEL  r_systeminit
+                                      003D1H    00022H
+                  @@CODEL  r_cg_cgc   003F3H    0002FH
+                  @@CODEL  r_cg_cgc_user
+                                      00422H    0000CH
+                  @@CODEL  r_cg_serial
+                                      0042EH    0015DH
+                  @@CODEL  r_cg_serial_user
+                                      0058BH    00008H
+                  @@CODEL  r_cg_port
+                                      00593H    0001DH
+                  @@CODEL  r_cg_port_user
+                                      005B0H    00000H
+                  @@CODEL  oled       005B0H    004FFH
+                  @@CODEL  MySPI      00AAFH    000ADH
+                  @@CODEL  W25Q64     00B5CH    001BCH
+         @@LCODEL                     00D18H    00060H  CSEG
+                  @@LCODEL @stkinit   00D18H    00044H
+                  @@LCODEL exit       00D5CH    0001CH
+* gap *                               00D78H    02288H
+         @@CNST                       03000H    00602H  CSEG MIRRORP
+                  @@CNST   @cstart    03000H    00000H
+                  @@CNST   r_main     03000H    00012H
+                  @@CNST   r_systeminit
+                                      03012H    00000H
+                  @@CNST   r_cg_cgc   03012H    00000H
+                  @@CNST   r_cg_cgc_user
+                                      03012H    00000H
+                  @@CNST   r_cg_serial
+                                      03012H    00000H
+                  @@CNST   r_cg_serial_user
+                                      03012H    00000H
+                  @@CNST   r_cg_port
+                                      03012H    00000H
+                  @@CNST   r_cg_port_user
+                                      03012H    00000H
+                  @@CNST   oled       03012H    005F0H
+                  @@CNST   MySPI      03602H    00000H
+                  @@CNST   W25Q64     03602H    00000H
+* gap *                               03602H    0C9FEH
+
+  MEMORY=RAM
+  BASE ADDRESS=FCF00H   SIZE=03100H
+         OUTPUT   INPUT    INPUT      BASE      SIZE
+         SEGMENT  SEGMENT  MODULE     ADDRESS
+         @@DATA                       FCF00H    000E2H  DSEG BASEP
+                  @@DATA   @cstart    FCF00H    000BAH
+                  @@DATA   r_main     FCFBAH    00004H
+                  @@DATA   r_systeminit
+                                      FCFBEH    00000H
+                  @@DATA   r_cg_cgc   FCFBEH    00000H
+                  @@DATA   r_cg_cgc_user
+                                      FCFBEH    00000H
+                  @@DATA   r_cg_serial
+                                      FCFBEH    0000CH
+                  @@DATA   r_cg_serial_user
+                                      FCFCAH    00000H
+                  @@DATA   r_cg_port
+                                      FCFCAH    00000H
+                  @@DATA   r_cg_port_user
+                                      FCFCAH    00000H
+                  @@DATA   oled       FCFCAH    00016H
+                  @@DATA   MySPI      FCFE0H    00002H
+                  @@DATA   W25Q64     FCFE2H    00000H
+                  @@DATA   @rom       FCFE2H    00000H
+         @@INIT                       FCFE2H    00000H  DSEG BASEP
+                  @@INIT   @cstart    FCFE2H    00000H
+                  @@INIT   r_main     FCFE2H    00000H
+                  @@INIT   r_systeminit
+                                      FCFE2H    00000H
+                  @@INIT   r_cg_cgc   FCFE2H    00000H
+                  @@INIT   r_cg_cgc_user
+                                      FCFE2H    00000H
+                  @@INIT   r_cg_serial
+                                      FCFE2H    00000H
+                  @@INIT   r_cg_serial_user
+                                      FCFE2H    00000H
+                  @@INIT   r_cg_port
+                                      FCFE2H    00000H
+                  @@INIT   r_cg_port_user
+                                      FCFE2H    00000H
+                  @@INIT   oled       FCFE2H    00000H
+                  @@INIT   MySPI      FCFE2H    00000H
+                  @@INIT   W25Q64     FCFE2H    00000H
+                  @@INIT   @rom       FCFE2H    00000H
+         @@INIS                       FCFE2H    00000H  DSEG UNITP
+                  @@INIS   @cstart    FCFE2H    00000H
+                  @@INIS   r_main     FCFE2H    00000H
+                  @@INIS   r_systeminit
+                                      FCFE2H    00000H
+                  @@INIS   r_cg_cgc   FCFE2H    00000H
+                  @@INIS   r_cg_cgc_user
+                                      FCFE2H    00000H
+                  @@INIS   r_cg_serial
+                                      FCFE2H    00000H
+                  @@INIS   r_cg_serial_user
+                                      FCFE2H    00000H
+                  @@INIS   r_cg_port
+                                      FCFE2H    00000H
+                  @@INIS   r_cg_port_user
+                                      FCFE2H    00000H
+                  @@INIS   oled       FCFE2H    00000H
+                  @@INIS   MySPI      FCFE2H    00000H
+                  @@INIS   W25Q64     FCFE2H    00000H
+                  @@INIS   @rom       FCFE2H    00000H
+         @@DATS                       FCFE2H    00000H  DSEG UNITP
+                  @@DATS   @cstart    FCFE2H    00000H
+                  @@DATS   r_main     FCFE2H    00000H
+                  @@DATS   r_systeminit
+                                      FCFE2H    00000H
+                  @@DATS   r_cg_cgc   FCFE2H    00000H
+                  @@DATS   r_cg_cgc_user
+                                      FCFE2H    00000H
+                  @@DATS   r_cg_serial
+                                      FCFE2H    00000H
+                  @@DATS   r_cg_serial_user
+                                      FCFE2H    00000H
+                  @@DATS   r_cg_port
+                                      FCFE2H    00000H
+                  @@DATS   r_cg_port_user
+                                      FCFE2H    00000H
+                  @@DATS   oled       FCFE2H    00000H
+                  @@DATS   MySPI      FCFE2H    00000H
+                  @@DATS   W25Q64     FCFE2H    00000H
+                  @@DATS   @rom       FCFE2H    00000H
+         @@INITL                      FCFE2H    00000H  DSEG UNIT64KP
+                  @@INITL  @cstart    FCFE2H    00000H
+                  @@INITL  r_main     FCFE2H    00000H
+                  @@INITL  r_systeminit
+                                      FCFE2H    00000H
+                  @@INITL  r_cg_cgc   FCFE2H    00000H
+                  @@INITL  r_cg_cgc_user
+                                      FCFE2H    00000H
+                  @@INITL  r_cg_serial
+                                      FCFE2H    00000H
+                  @@INITL  r_cg_serial_user
+                                      FCFE2H    00000H
+                  @@INITL  r_cg_port
+                                      FCFE2H    00000H
+                  @@INITL  r_cg_port_user
+                                      FCFE2H    00000H
+                  @@INITL  oled       FCFE2H    00000H
+                  @@INITL  MySPI      FCFE2H    00000H
+                  @@INITL  W25Q64     FCFE2H    00000H
+                  @@INITL  @rom       FCFE2H    00000H
+         @@DATAL                      FCFE2H    00000H  DSEG UNIT64KP
+                  @@DATAL  @cstart    FCFE2H    00000H
+                  @@DATAL  r_main     FCFE2H    00000H
+                  @@DATAL  r_systeminit
+                                      FCFE2H    00000H
+                  @@DATAL  r_cg_cgc   FCFE2H    00000H
+                  @@DATAL  r_cg_cgc_user
+                                      FCFE2H    00000H
+                  @@DATAL  r_cg_serial
+                                      FCFE2H    00000H
+                  @@DATAL  r_cg_serial_user
+                                      FCFE2H    00000H
+                  @@DATAL  r_cg_port
+                                      FCFE2H    00000H
+                  @@DATAL  r_cg_port_user
+                                      FCFE2H    00000H
+                  @@DATAL  oled       FCFE2H    00000H
+                  @@DATAL  MySPI      FCFE2H    00000H
+                  @@DATAL  W25Q64     FCFE2H    00000H
+                  @@DATAL  @rom       FCFE2H    00000H
+         @@BITS                       FCFE2H    00000H  BSEG
+                  @@BITS   @cstart    FCFE2H.0  00000H.0
+                  @@BITS   r_main     FCFE2H.0  00000H.0
+                  @@BITS   r_systeminit
+                                      FCFE2H.0  00000H.0
+                  @@BITS   r_cg_cgc   FCFE2H.0  00000H.0
+                  @@BITS   r_cg_cgc_user
+                                      FCFE2H.0  00000H.0
+                  @@BITS   r_cg_serial
+                                      FCFE2H.0  00000H.0
+                  @@BITS   r_cg_serial_user
+                                      FCFE2H.0  00000H.0
+                  @@BITS   r_cg_port
+                                      FCFE2H.0  00000H.0
+                  @@BITS   r_cg_port_user
+                                      FCFE2H.0  00000H.0
+                  @@BITS   oled       FCFE2H.0  00000H.0
+                  @@BITS   MySPI      FCFE2H.0  00000H.0
+                  @@BITS   W25Q64     FCFE2H.0  00000H.0
+* gap *                               FCFE2H    02EF2H
+         @@SEGREG                     FFED4H    00004H  DSEG AT
+                  @@SEGREG @SEGREG    FFED4H    00004H
+         @@RTARG0                     FFED8H    00008H  DSEG AT
+                  @@RTARG0 @RTARG0    FFED8H    00008H
+* gap *                               FFEE0H    00020H
+* gap (Not Free Area) *               FFF00H    00100H
+
+
+ Target chip : R5F100LG
+ Device file : V1.12
+
